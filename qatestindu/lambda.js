@@ -6,7 +6,7 @@ exports.handler = function (event, context, callback) {
         'Bucket': 'as2-test-lahiru',
         'MaxKeys': 10,
         'Prefix': ''
-    }).promise()
+    }).promi()
         .then(data => {
             console.log(data);           // successful response
             /*
